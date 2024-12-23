@@ -1,0 +1,5 @@
+VAR#>mvn clean install -U
+EXPRESSION#>mvn
+EXPRESSION#>help
+EXPRESSION#>clean
+EXPRESSION#>ja

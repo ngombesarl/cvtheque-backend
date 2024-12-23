@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px 0;
+            border-bottom: 3px solid #ddd;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 15px auto;
+            display: block;
+        }
+
+        .header p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 30px 0 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #ddd;
+            color: #333;
+        }
+
+        .content {
+            margin-bottom: 20px;
+            padding-left: 15px;
+        }
+
+        .content ul {
+            padding-left: 20px;
+        }
+
+        .content ul li {
+            margin-bottom: 8px;
+        }
+
+        .cv-title {
+            font-size: 24px;
+            text-align: center;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #444;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Title Section -->
+    <div class="cv-title">Curriculum Vitae</div>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>{{name}}</h1>
+        <img src="{{profilePhoto}}" alt="Profile Photo" class="profile-photo">
+        <p>Email: {{email}}</p>
+        <p>Phone: {{phone}}</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section-title">Skills</div>
+    <div class="content">
+        <ul>
+            {{#skills}}
+            <li>{{.}}</li>
+            {{/skills}}
+        </ul>
+    </div>
+
+    <!-- Experience Section -->
+    <hr>
+    <div class="section-title">Experience</div>
+    <div class="content">
+        <ul>
+            {{#experience}}
+            <li>{{.}}</li>
+            {{/experience}}
+        </ul>
+    </div>
+
+    <!-- Education Section -->
+    <hr>
+    <div class="section-title">Education</div>
+    <div class="content">
+        <ul>
+            {{#education}}
+            <li>{{.}}</li>
+            {{/education}}
+        </ul>
+    </div>
+
+    <!-- References Section -->
+    <hr>
+    <div class="section-title">References</div>
+    <div class="content">
+        <ul>
+            {{#references}}
+            <li>{{.}}</li>
+            {{/references}}
+        </ul>
+    </div>
+
+    <!-- Qualification Section -->
+    <hr>
+    <div class="section-title">Qualification</div>
+    <div class="content">
+        <p>{{qualification}}</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "title": "Développeur Java",
+  "description": "Développement d'applications web en Java",
+  "city": "Paris",
+  "salary": 45000,
+  "status": "Open",
+  "type": "Full-time",
+  "missions": ["Développer des API", "Maintenir le code existant"]
+}
+

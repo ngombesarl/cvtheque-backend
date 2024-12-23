@@ -1,0 +1,100 @@
+{
+  "format": "pdf",
+  "firstName": "John",
+  "lastName": "Doe",
+  "title": "Software Engineer",
+  "email": "johndoe@example.com",
+  "phone": "123-456-7890",
+  "address": "123 Main Street, Cityville",
+  "linkedin": "https://linkedin.com/in/johndoe",
+  "portraitUrl": "https://example.com/johndoe.jpg",
+  "about": "Passionate software engineer with 5+ years of experience.",
+  "skills": [
+    {
+      "name": "Java",
+      "level": "Expert"
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Advanced"
+    }
+  ],
+  "languages": [
+    { "name": "Français", "level": "Langue maternelle" },
+    { "name": "Anglais", "level": "Compétence professionnelle" }
+  ],
+  "interests": [
+    "Jeux vidéo, jouer et développer",
+    "Musique, écoute et composition",
+    "Art en général",
+    "Sport",
+    "Informatique en général"
+  ],
+  "experiences": [
+    {
+      "startDate": "2015",
+      "endDate": "2021",
+      "position": "Fullstack Developer à temps plein",
+      "company": "Webadev SPRL",
+      "tasks": [
+        "Réalisations de sites web, d’e-shops, d’interfaces et d’applications web sous Angular et Bootstrap",
+        "Intégration de templates Photoshop, Illustrator, Sketch, Figma",
+        "Animations CSS / JS",
+        "Responsive design",
+        "UI / UX Design",
+        "Projets sous npm et Webpack",
+        "Collaboration avec d’autres studios graphiques",
+        "Optimisation des performances",
+        "Développement de templates et de modules réutilisables",
+        "Projets en équipe, utilisation quotidienne de SVN, Git et Github"
+      ]
+    },
+    {
+      "startDate": "2021",
+      "endDate": null,
+      "position": "Freelance Front-end Developer",
+      "tasks": [
+        "Freelance Front-end Developer",
+        "Unity Developer / Sound Designer"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "startDate": "2015",
+      "endDate": "2019",
+      "degree": "Bachelier en Informatique de Gestion",
+      "status": "Diplômé",
+      "institution": "Institut Saint Laurent"
+    },
+    {
+      "startDate": "2015",
+      "endDate": "2015",
+      "degree": "Formation qualifiante de Web Developer",
+      "institution": "STE-Formations Informatiques"
+    },
+    {
+      "startDate": "2013",
+      "endDate": "2014",
+      "degree": "Bachelier en Sciences humaines",
+      "institution": "Haute École de Liège"
+    },
+    {
+      "startDate": "2009",
+      "endDate": "2013",
+      "degree": "Bachelier en Psychologie",
+      "institution": "Université de Liège"
+    },
+    {
+      "startDate": "2002",
+      "endDate": "2009",
+      "degree": "CESS",
+      "institution": "Institut Notre-Dame de Jupille"
+    }
+  ],
+  "additionalExperiences": [
+    "Permis B, possession d’une voiture",
+    "Animateur Scout pendant 6 ans",
+    "Brevet d’animateur de Centre de Vacances"
+  ]
+}
